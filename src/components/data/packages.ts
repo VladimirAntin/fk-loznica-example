@@ -1,0 +1,68 @@
+const packages: Package[] = [
+  {
+    title: 'Mesečni',
+    subtitle: 'Fleksibilan — bez obaveze',
+    price: '2.500 RSD/mes.',
+    features: [
+      '8 treninga mesečno',
+      'Stručni trener',
+      'Oprema na korišćenje',
+      'Praćenje napretka',
+    ],
+    cta: 'Upiši se',
+    iconName: 'smile',
+    image: 'https://images.pexels.com/photos/8613319/pexels-photo-8613319.jpeg?auto=compress&cs=tinysrgb&w=900',
+  },
+  {
+    title: 'Tromesečni',
+    subtitle: 'Najpopularniji — 3 meseca',
+    price: '6.500 RSD',
+    priceNote: 'Preporučeno',
+    features: [
+      '3 meseca treninga',
+      '8 treninga mesečno',
+      'Stručni trener',
+      'Oprema na korišćenje',
+      'Praćenje napretka',
+      'Učešće na turniru',
+    ],
+    cta: 'Upiši se',
+    highlighted: true,
+    iconName: 'sparkles',
+    image: 'https://images.pexels.com/photos/3662763/pexels-photo-3662763.jpeg?auto=compress&cs=tinysrgb&w=900',
+  },
+  {
+    title: 'Polugodišnji',
+    subtitle: 'Ozbiljan napredak — 6 meseci',
+    price: '11.000 RSD',
+    features: [
+      '6 meseci treninga',
+      '8 treninga mesečno',
+      'Stručni trener',
+      'Dres kluba',
+      'Praćenje napretka',
+      'Učešće na turnirima',
+    ],
+    cta: 'Upiši se',
+    iconName: 'shieldCheck',
+    image: 'https://images.pexels.com/photos/3887517/pexels-photo-3887517.jpeg?auto=compress&cs=tinysrgb&w=900',
+  },
+  {
+    title: 'Godišnji',
+    subtitle: 'Puna sezona — 12 meseci',
+    price: '18.000 RSD',
+    features: [
+      '12 meseci treninga',
+      '8 treninga mesečno',
+      'Stručni trener',
+      'Komplet opreme kluba',
+      'Video analiza napretka',
+      'Prednost upisa u letnji kamp',
+    ],
+    cta: 'Upiši se',
+    iconName: 'layers',
+    image: 'https://images.pexels.com/photos/1405528/pexels-photo-1405528.jpeg?auto=compress&cs=tinysrgb&w=900',
+  },
+];
+
+export {packages};
